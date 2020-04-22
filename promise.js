@@ -2,12 +2,6 @@
  * Please check the callbackExplain.js functions. There handling the functions in callback mechanism.
  * Here, we are using the promise to resolve the samething in this example.
  */
-/*
-* This code are written in callback mechanism, if we remove the callback function,
-* the value get converts only 2 Entries or data array. After adding the callback,
-* printSecondList() has the 2 sec value. After 2 second, It going to call the callback function
-* which is passed in callee.
-*/
 var data = [
     { title: 'IOWA', body: 'Iowa Repository' },
     { title: 'DOWNLOAD', body: 'Downloader Repo' }
